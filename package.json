@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.2",
-    "@material-ui/data-grid": "^4.0.0-alpha.34",
     "@material-ui/icons": "^4.11.2",
     "@material-ui/lab": "^4.0.0-alpha.60",
     "@testing-library/jest-dom": "^5.14.1",
@@ -60,5 +59,8 @@
     "@typescript-eslint/eslint-plugin": "^5.16.0",
     "@typescript-eslint/parser": "^5.16.0",
     "eslint-config-prettier": "^8.5.0"
+  },
+  "overrides": {
+    "@types/react": "^17.0.19"
   }
 }
